@@ -1,0 +1,13 @@
+{
+  "name": "jest-watch-prporcessor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "jest-bamboo-formatter": "^1.0.1"
+  },
+  "jest": {
+   "testResultsProcessor": "./node_modules/jest-bamboo-formatter"
+  }
+}
